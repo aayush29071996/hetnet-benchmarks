@@ -1,0 +1,32 @@
+#!/usr/bin/gnuplot
+
+reset
+set term postscript  size 5,5 eps enhanced
+set out 'cpuPower1 X86 Memcache.eps'
+#set multiplot layout 9,4 title "Thread1"
+
+
+set xlabel "Threads"
+
+clients="50 100 200 300 400 500"
+
+set ylabel "Power1 MEMCACHE"
+set yrange [135:245]
+
+#set y2label "Clients"
+set logscale x 2
+#set y2tics nomirror
+#set ytics nomirror
+
+set title "Average X86 Power1 MEMCACHE"
+set key reverse Left outside
+set grid
+
+set style data linespoints
+my_data(n)=sprintf("< awk '/^%s /{print;}' cpuPower1.dat", word(clients,n))
+
+#plot  my_data(1)  using 2:3 w lp  title "MIN400C", my_data(1) using 2:4 w lp title "MAX400C",  my_data(2) using 2:3 w lp title "MIN500C", my_data(2) using 2:4 w lp title "MAX500C"
+plot  my_data(1)  using 2:3 w lp  title "MIN50C", my_data(1) using 2:4 w lp title "MAX50C",  my_data(2) using 2:3 w lp title "MIN100C", my_data(2) using 2:4 w lp title "MAX100C", my_data(3) using 2:3 w lp title "MIN200C", my_data(3) using 2:4 w lp title "MAX200C", my_data(4) using 2:3 w lp title "MIN300C", my_data(4) using 2:4 w lp title "MAX300C", my_data(5) using 2:3 w lp title "MIN400C", my_data(5) using 2:4 w lp title "MAX400C", my_data(6) using 2:3 w lp title "MIN500C", my_data(6) using 2:4 w lp title "MAX500C" 
+
+# "cpuLoad.dat" using :11 w lines axes x1y2 title "Clients"
+

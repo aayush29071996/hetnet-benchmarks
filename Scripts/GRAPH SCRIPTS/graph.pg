@@ -1,0 +1,33 @@
+#!/usr/bin/gnuplot
+
+reset
+set term postscript  size 5,5 eps enhanced
+set out 'X86Memcache2ClientMAXLat.eps'
+#set multiplot layout 9,4 title "Thread1"
+
+
+set xlabel "Threads"
+
+clients="50 100 200 300 400 500"
+
+set ylabel "MAX Latency MEMCACHE (mSec)"
+set yrange [0.0001:0.1]
+
+#set y2label "Clients"
+set logscale x 2
+#set y2tics nomirror
+#set ytics nomirror
+set logscale y 10
+
+set title "X86 MAX LATENCY 2 CLIENT MEMCACHE"
+set key reverse Left outside
+set grid
+
+set style data linespoints
+my_data(n)=sprintf("< awk '/^%s /{print;}' avg_max_lat_x86.values", word(clients,n))
+
+#plot  my_data(1)  using 2:3 w lp  title "MIN400C", my_data(1) using 2:4 w lp title "MAX400C",  my_data(2) using 2:3 w lp title "MIN500C", my_data(2) using 2:4 w lp title "MAX500C"
+plot  my_data(1)  using 2:3 w lp  title "SET50C", my_data(1) using 2:4 w lp title "GET50C",  my_data(2) using 2:3 w lp title "SET100C", my_data(2) using 2:4 w lp title "GET100C", my_data(3) using 2:3 w lp title "SET200C", my_data(3) using 2:4 w lp title "GET200C", my_data(4) using 2:3 w lp title "SET300C", my_data(4) using 2:4 w lp title "GET300C", my_data(5) using 2:3 w lp title "SET400C", my_data(5) using 2:4 w lp title "GET400C", my_data(6) using 2:3 w lp title "SET500C", my_data(6) using 2:4 w lp title "GET500C" 
+
+# "cpuLoad.dat" using :11 w lines axes x1y2 title "Clients"
+

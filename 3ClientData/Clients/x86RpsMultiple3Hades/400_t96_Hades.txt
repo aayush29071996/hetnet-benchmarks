@@ -1,0 +1,46 @@
+SET: 0.00SET: 43030.77SET: 45150.98SET: 45409.21SET: 52551.48SET: 53302.38SET: 57880.80====== SET ======
+  100010 requests completed in 1.64 seconds
+  400 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.82% <= 0 milliseconds
+32.80% <= 1 milliseconds
+70.82% <= 2 milliseconds
+84.11% <= 3 milliseconds
+92.27% <= 4 milliseconds
+96.59% <= 5 milliseconds
+98.67% <= 6 milliseconds
+99.45% <= 7 milliseconds
+99.74% <= 8 milliseconds
+99.89% <= 9 milliseconds
+99.96% <= 10 milliseconds
+99.98% <= 11 milliseconds
+99.99% <= 12 milliseconds
+99.99% <= 13 milliseconds
+99.99% <= 14 milliseconds
+99.99% <= 15 milliseconds
+100.00% <= 16 milliseconds
+100.00% <= 1274 milliseconds
+100.00% <= 1275 milliseconds
+60944.54 requests per second
+
+GET: 94706.90GET: 94193.45GET: 93165.32GET: 92624.43====== GET ======
+  100234 requests completed in 1.08 seconds
+  400 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.10% <= 1 milliseconds
+45.59% <= 2 milliseconds
+94.73% <= 3 milliseconds
+99.46% <= 4 milliseconds
+99.95% <= 5 milliseconds
+99.95% <= 773 milliseconds
+99.96% <= 783 milliseconds
+100.00% <= 784 milliseconds
+100.00% <= 824 milliseconds
+93240.93 requests per second
+
+
+SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00SET: 0.00

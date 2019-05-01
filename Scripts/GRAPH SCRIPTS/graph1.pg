@@ -1,0 +1,105 @@
+#!/usr/bin/gnuplot
+
+reset
+set term postscript  size 30,35 eps enhanced
+set out 'thread4.eps'
+set multiplot layout 9,4 title "Thread1"
+
+
+set xlabel "time"
+
+
+set ylabel "Load"
+
+
+set y2label "Power1 and Power2"
+set logscale y2 10
+set y2tics nomirror
+set ytics nomirror
+
+set title "Performance per time"
+set key reverse Left outside
+set grid
+
+set style data linespoints
+
+
+plot "cpuLoad_1_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_1_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_1_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_1_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_1_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_1_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_1_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_1_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_1_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_1_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_1_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_1_c300.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_2_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_2_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_2_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_2_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_2_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_2_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_2_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_2_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_2_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_2_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_2_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_2_c300.out" using :3 w lines axes x1y2  title "power2"
+
+
+
+plot "cpuLoad_4_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_4_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_4_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_4_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_4_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_4_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_4_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_4_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_4_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_4_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_4_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_4_c300.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_8_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_8_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_8_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_8_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_8_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_8_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_8_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_8_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_8_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_8_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_8_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_8_c300.out" using :3 w lines axes x1y2  title "power2"
+
+
+
+plot "cpuLoad_16_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_16_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_16_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_16_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_16_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_16_c100.out" using :3 w lines axes x1y2  title "powwe2"
+
+plot "cpuLoad_16_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_16_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_16_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_16_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_16_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_16_c300.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_32_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_32_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_32_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_32_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_32_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_32_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_32_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_32_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_32_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_32_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_32_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_32_c300.out" using :3 w lines axes x1y2  title "power2"
+
+
+plot "cpuLoad_48_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_48_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_48_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_48_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_48_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_48_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_48_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_48_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_48_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_48_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_48_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_48_c300.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_64_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_64_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_64_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_64_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_64_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_64_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_64_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_64_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_64_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_64_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_64_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_64_c300.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_96_c50.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_96_c50.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_96_c50.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_96_c100.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_96_c100.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_96_c100.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_96_c200.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_96_c200.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_96_c200.out" using :3 w lines axes x1y2  title "power2"
+
+plot "cpuLoad_96_c300.log.dat" using :3 w lines title "cpuLoad" , "cpuPower1_96_c300.out" using :11 w lines axes x1y2 title "power1", "cpuPower2_cpuPower1_96_c300.out" using :3 w lines axes x1y2  title "power2"
+
+
+#

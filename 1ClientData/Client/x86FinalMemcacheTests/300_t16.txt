@@ -1,0 +1,542 @@
+SET: 0.00SET: 88053.64SET: 89724.60SET: 91200.52SET: 90104.53====== SET ======
+  100032 requests completed in 1.11 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.01% <= 0 milliseconds
+0.14% <= 1 milliseconds
+0.76% <= 2 milliseconds
+70.71% <= 3 milliseconds
+99.02% <= 4 milliseconds
+99.76% <= 5 milliseconds
+99.83% <= 6 milliseconds
+99.86% <= 7 milliseconds
+99.91% <= 8 milliseconds
+99.92% <= 9 milliseconds
+99.94% <= 10 milliseconds
+99.97% <= 11 milliseconds
+99.99% <= 12 milliseconds
+100.00% <= 13 milliseconds
+100.00% <= 14 milliseconds
+89795.34 requests per second
+
+GET: 88885.91GET: 88824.56GET: 89561.54GET: 89973.36====== GET ======
+  100019 requests completed in 1.11 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.01% <= 0 milliseconds
+0.24% <= 1 milliseconds
+0.64% <= 2 milliseconds
+68.71% <= 3 milliseconds
+99.39% <= 4 milliseconds
+99.89% <= 5 milliseconds
+99.98% <= 6 milliseconds
+100.00% <= 7 milliseconds
+89945.15 requests per second
+
+
+SET: 80894.74SET: 90252.59SET: 91985.16SET: 92634.98SET: 92699.04====== SET ======
+  100080 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.11% <= 1 milliseconds
+0.58% <= 2 milliseconds
+78.49% <= 3 milliseconds
+99.71% <= 4 milliseconds
+99.85% <= 5 milliseconds
+99.91% <= 6 milliseconds
+99.96% <= 7 milliseconds
+99.99% <= 8 milliseconds
+100.00% <= 9 milliseconds
+100.00% <= 10 milliseconds
+92666.66 requests per second
+
+GET: 90296.65GET: 89124.19GET: 89360.56GET: 89342.71====== GET ======
+  100087 requests completed in 1.12 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.04% <= 1 milliseconds
+0.33% <= 2 milliseconds
+68.92% <= 3 milliseconds
+98.58% <= 4 milliseconds
+99.41% <= 5 milliseconds
+99.99% <= 6 milliseconds
+100.00% <= 7 milliseconds
+100.00% <= 8 milliseconds
+100.00% <= 10 milliseconds
+89443.26 requests per second
+
+
+SET: 84438.20SET: 82029.41SET: 84810.48SET: 86109.39SET: 86561.35====== SET ======
+  100104 requests completed in 1.15 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.00% <= 0 milliseconds
+0.23% <= 1 milliseconds
+1.24% <= 2 milliseconds
+57.96% <= 3 milliseconds
+97.91% <= 4 milliseconds
+99.69% <= 5 milliseconds
+99.79% <= 6 milliseconds
+99.86% <= 7 milliseconds
+99.89% <= 8 milliseconds
+99.90% <= 9 milliseconds
+99.92% <= 10 milliseconds
+99.95% <= 11 milliseconds
+99.96% <= 12 milliseconds
+99.97% <= 13 milliseconds
+99.99% <= 14 milliseconds
+100.00% <= 15 milliseconds
+86670.13 requests per second
+
+GET: 83771.74GET: 85718.90GET: 86793.86GET: 88109.20====== GET ======
+  100044 requests completed in 1.13 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.13% <= 1 milliseconds
+0.54% <= 2 milliseconds
+64.06% <= 3 milliseconds
+99.40% <= 4 milliseconds
+99.83% <= 5 milliseconds
+99.94% <= 6 milliseconds
+100.00% <= 7 milliseconds
+88612.94 requests per second
+
+
+SET: 82759.26SET: 90480.27SET: 91655.85SET: 91896.89SET: 92796.40====== SET ======
+  100041 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.12% <= 1 milliseconds
+0.78% <= 2 milliseconds
+79.53% <= 3 milliseconds
+99.39% <= 4 milliseconds
+99.73% <= 5 milliseconds
+99.82% <= 6 milliseconds
+99.91% <= 7 milliseconds
+99.97% <= 8 milliseconds
+99.99% <= 9 milliseconds
+100.00% <= 10 milliseconds
+92888.58 requests per second
+
+GET: 85504.38GET: 88640.17GET: 89587.91GET: 90162.58====== GET ======
+  100062 requests completed in 1.10 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.14% <= 1 milliseconds
+0.80% <= 2 milliseconds
+72.75% <= 3 milliseconds
+98.37% <= 4 milliseconds
+99.27% <= 5 milliseconds
+99.91% <= 6 milliseconds
+99.99% <= 7 milliseconds
+99.99% <= 8 milliseconds
+100.00% <= 9 milliseconds
+100.00% <= 10 milliseconds
+90635.88 requests per second
+
+
+SET: 90975.41SET: 92677.41SET: 92959.81SET: 91760.32====== SET ======
+  100053 requests completed in 1.09 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.19% <= 0 milliseconds
+0.79% <= 1 milliseconds
+3.22% <= 2 milliseconds
+78.81% <= 3 milliseconds
+98.06% <= 4 milliseconds
+98.55% <= 5 milliseconds
+98.96% <= 6 milliseconds
+99.34% <= 7 milliseconds
+99.55% <= 8 milliseconds
+99.67% <= 9 milliseconds
+99.76% <= 10 milliseconds
+99.85% <= 11 milliseconds
+99.91% <= 12 milliseconds
+99.96% <= 13 milliseconds
+99.99% <= 14 milliseconds
+99.99% <= 15 milliseconds
+100.00% <= 16 milliseconds
+100.00% <= 17 milliseconds
+92129.84 requests per second
+
+GET: 79382.35GET: 90242.95GET: 91310.87GET: 91907.00GET: 92055.08====== GET ======
+  100195 requests completed in 1.09 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.14% <= 1 milliseconds
+0.64% <= 2 milliseconds
+76.41% <= 3 milliseconds
+99.78% <= 4 milliseconds
+99.90% <= 5 milliseconds
+99.98% <= 6 milliseconds
+100.00% <= 7 milliseconds
+100.00% <= 8 milliseconds
+92260.59 requests per second
+
+
+SET: 89913.70SET: 91753.91SET: 90888.25SET: 91268.98====== SET ======
+  100076 requests completed in 1.09 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.08% <= 0 milliseconds
+0.35% <= 1 milliseconds
+2.62% <= 2 milliseconds
+75.57% <= 3 milliseconds
+98.34% <= 4 milliseconds
+99.01% <= 5 milliseconds
+99.58% <= 6 milliseconds
+99.71% <= 7 milliseconds
+99.79% <= 8 milliseconds
+99.87% <= 9 milliseconds
+99.91% <= 10 milliseconds
+99.95% <= 11 milliseconds
+99.97% <= 12 milliseconds
+99.99% <= 13 milliseconds
+100.00% <= 14 milliseconds
+100.00% <= 15 milliseconds
+91644.69 requests per second
+
+GET: 90980.95GET: 94146.06GET: 94343.23GET: 94028.04====== GET ======
+  100118 requests completed in 1.07 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.11% <= 1 milliseconds
+0.50% <= 2 milliseconds
+81.02% <= 3 milliseconds
+99.47% <= 4 milliseconds
+99.92% <= 5 milliseconds
+100.00% <= 6 milliseconds
+100.00% <= 7 milliseconds
+93393.66 requests per second
+
+
+SET: 79062.50SET: 92588.65SET: 93964.28SET: 93570.88SET: 92451.12====== SET ======
+  100081 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.12% <= 1 milliseconds
+0.39% <= 2 milliseconds
+78.82% <= 3 milliseconds
+98.76% <= 4 milliseconds
+99.48% <= 5 milliseconds
+99.98% <= 6 milliseconds
+99.99% <= 7 milliseconds
+100.00% <= 8 milliseconds
+100.00% <= 9 milliseconds
+92325.65 requests per second
+
+GET: 89517.77GET: 89955.45GET: 92464.95GET: 93070.53====== GET ======
+  100118 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.10% <= 1 milliseconds
+0.63% <= 2 milliseconds
+79.37% <= 3 milliseconds
+99.23% <= 4 milliseconds
+99.85% <= 5 milliseconds
+99.94% <= 6 milliseconds
+99.97% <= 7 milliseconds
+100.00% <= 8 milliseconds
+92873.84 requests per second
+
+
+SET: 88641.67SET: 89590.30SET: 90185.19SET: 90700.34====== SET ======
+  100057 requests completed in 1.11 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.14% <= 1 milliseconds
+0.85% <= 2 milliseconds
+72.42% <= 3 milliseconds
+98.61% <= 4 milliseconds
+99.30% <= 5 milliseconds
+99.72% <= 6 milliseconds
+99.84% <= 7 milliseconds
+99.91% <= 8 milliseconds
+99.96% <= 9 milliseconds
+99.99% <= 10 milliseconds
+100.00% <= 11 milliseconds
+100.00% <= 12 milliseconds
+100.00% <= 13 milliseconds
+100.00% <= 14 milliseconds
+90467.45 requests per second
+
+GET: 57500.00GET: 88373.59GET: 88093.20GET: 89339.87GET: 89535.43====== GET ======
+  100142 requests completed in 1.12 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.22% <= 1 milliseconds
+0.59% <= 2 milliseconds
+66.76% <= 3 milliseconds
+99.53% <= 4 milliseconds
+99.82% <= 5 milliseconds
+99.89% <= 6 milliseconds
+99.95% <= 7 milliseconds
+99.99% <= 8 milliseconds
+100.00% <= 9 milliseconds
+89412.50 requests per second
+
+
+SET: 90181.81SET: 87106.60SET: 80937.89SET: 81242.73SET: 81454.54====== SET ======
+  100147 requests completed in 1.22 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.10% <= 1 milliseconds
+0.33% <= 2 milliseconds
+43.15% <= 3 milliseconds
+93.78% <= 4 milliseconds
+99.88% <= 5 milliseconds
+99.93% <= 6 milliseconds
+99.96% <= 7 milliseconds
+99.98% <= 8 milliseconds
+100.00% <= 9 milliseconds
+100.00% <= 10 milliseconds
+82155.05 requests per second
+
+GET: 92017.24GET: 93273.59GET: 93635.55GET: 94251.89====== GET ======
+  100078 requests completed in 1.06 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.10% <= 1 milliseconds
+0.37% <= 2 milliseconds
+85.25% <= 3 milliseconds
+99.53% <= 4 milliseconds
+99.95% <= 5 milliseconds
+99.99% <= 6 milliseconds
+100.00% <= 7 milliseconds
+94681.17 requests per second
+
+
+SET: 86418.80SET: 87258.85SET: 82110.21SET: 84120.97SET: 86503.13====== SET ======
+  100031 requests completed in 1.15 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.10% <= 1 milliseconds
+1.00% <= 2 milliseconds
+62.45% <= 3 milliseconds
+94.11% <= 4 milliseconds
+99.62% <= 5 milliseconds
+99.73% <= 6 milliseconds
+99.86% <= 7 milliseconds
+99.92% <= 8 milliseconds
+99.95% <= 9 milliseconds
+99.97% <= 10 milliseconds
+99.98% <= 11 milliseconds
+100.00% <= 12 milliseconds
+100.00% <= 13 milliseconds
+100.00% <= 15 milliseconds
+86757.16 requests per second
+
+GET: 88367.44GET: 89479.57GET: 90966.44GET: 91972.05====== GET ======
+  100033 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.16% <= 1 milliseconds
+0.57% <= 2 milliseconds
+77.24% <= 3 milliseconds
+99.65% <= 4 milliseconds
+99.88% <= 5 milliseconds
+99.98% <= 6 milliseconds
+100.00% <= 7 milliseconds
+92281.37 requests per second
+
+
+SET: 93130.77SET: 90207.34SET: 91011.09SET: 90315.55====== SET ======
+  100035 requests completed in 1.11 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.19% <= 1 milliseconds
+1.33% <= 2 milliseconds
+74.34% <= 3 milliseconds
+98.27% <= 4 milliseconds
+98.92% <= 5 milliseconds
+99.21% <= 6 milliseconds
+99.50% <= 7 milliseconds
+99.64% <= 8 milliseconds
+99.70% <= 9 milliseconds
+99.78% <= 10 milliseconds
+99.85% <= 11 milliseconds
+99.90% <= 12 milliseconds
+99.95% <= 13 milliseconds
+99.97% <= 14 milliseconds
+99.98% <= 15 milliseconds
+99.99% <= 16 milliseconds
+99.99% <= 17 milliseconds
+99.99% <= 18 milliseconds
+100.00% <= 19 milliseconds
+100.00% <= 20 milliseconds
+90447.56 requests per second
+
+GET: 74958.34GET: 93738.18GET: 92874.29GET: 92607.74GET: 92382.44====== GET ======
+  100014 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.10% <= 1 milliseconds
+0.59% <= 2 milliseconds
+78.05% <= 3 milliseconds
+99.17% <= 4 milliseconds
+99.98% <= 5 milliseconds
+100.00% <= 6 milliseconds
+92434.38 requests per second
+
+
+SET: 91952.88SET: 91598.63SET: 92358.90SET: 92751.33====== SET ======
+  100113 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.27% <= 1 milliseconds
+1.03% <= 2 milliseconds
+79.17% <= 3 milliseconds
+99.27% <= 4 milliseconds
+99.73% <= 5 milliseconds
+99.84% <= 6 milliseconds
+99.92% <= 7 milliseconds
+99.96% <= 8 milliseconds
+99.98% <= 9 milliseconds
+99.99% <= 10 milliseconds
+99.99% <= 11 milliseconds
+99.99% <= 12 milliseconds
+100.00% <= 13 milliseconds
+100.00% <= 14 milliseconds
+100.00% <= 15 milliseconds
+92869.20 requests per second
+
+GET: 91187.50GET: 92428.18GET: 92567.70GET: 92644.27====== GET ======
+  100136 requests completed in 1.08 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.11% <= 1 milliseconds
+0.36% <= 2 milliseconds
+78.81% <= 3 milliseconds
+99.26% <= 4 milliseconds
+99.90% <= 5 milliseconds
+99.95% <= 6 milliseconds
+99.98% <= 7 milliseconds
+100.00% <= 8 milliseconds
+100.00% <= 9 milliseconds
+92632.75 requests per second
+
+
+SET: 79833.34SET: 91217.09SET: 92460.52SET: 91420.72SET: 90798.65====== SET ======
+  100094 requests completed in 1.10 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.02% <= 0 milliseconds
+0.27% <= 1 milliseconds
+0.73% <= 2 milliseconds
+73.69% <= 3 milliseconds
+98.57% <= 4 milliseconds
+99.39% <= 5 milliseconds
+99.61% <= 6 milliseconds
+99.75% <= 7 milliseconds
+99.83% <= 8 milliseconds
+99.89% <= 9 milliseconds
+99.94% <= 10 milliseconds
+99.96% <= 11 milliseconds
+99.97% <= 12 milliseconds
+99.97% <= 13 milliseconds
+99.98% <= 14 milliseconds
+99.99% <= 15 milliseconds
+99.99% <= 16 milliseconds
+99.99% <= 17 milliseconds
+100.00% <= 18 milliseconds
+100.00% <= 19 milliseconds
+100.00% <= 20 milliseconds
+100.00% <= 21 milliseconds
+90664.86 requests per second
+
+GET: 86735.95GET: 91857.81GET: 93329.89GET: 93378.49====== GET ======
+  100024 requests completed in 1.07 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.02% <= 0 milliseconds
+0.32% <= 1 milliseconds
+0.62% <= 2 milliseconds
+82.33% <= 3 milliseconds
+98.80% <= 4 milliseconds
+99.39% <= 5 milliseconds
+99.91% <= 6 milliseconds
+99.96% <= 7 milliseconds
+100.00% <= 8 milliseconds
+100.00% <= 9 milliseconds
+93480.37 requests per second
+
+
+SET: 89333.33SET: 89634.08SET: 91171.05SET: 89508.16SET: 90221.12====== SET ======
+  100114 requests completed in 1.11 seconds
+  300 parallel clients
+  100 bytes payload
+  keep alive: 1
+
+0.05% <= 0 milliseconds
+0.59% <= 1 milliseconds
+2.52% <= 2 milliseconds
+71.58% <= 3 milliseconds
+97.89% <= 4 milliseconds
+98.96% <= 5 milliseconds
+99.50% <= 6 milliseconds
+99.67% <= 7 milliseconds
+99.74% <= 8 milliseconds
+99.81% <= 9 milliseconds
+99.86% <= 10 milliseconds
+99.90% <= 11 milliseconds
+99.94% <= 12 milliseconds
+99.95% <= 13 milliseconds
+99.96% <= 14 milliseconds
+99.98% <= 15 milliseconds
+100.00% <= 16 milliseconds
+100.00% <= 17 milliseconds
+100.00% <= 18 milliseconds
+90274.12 requests per second
+
