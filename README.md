@@ -44,7 +44,6 @@ Please be careful of changing the scripts with the appropriate IP address requir
         Maximum Latency- Maximum latency is then calculated with the help of another shell script and then the maximum of all the maximum reading for that particular test is taken and then a unified graph is plotted.
     
     
-    
     2. SERVER-
         LOAD- The load of the cpu is processed with the help of a shell script named "filter_load.sh", this script filters the command line output and gives only the data which is appropriate for the experiments. The data thus obtained from this is then put into a R script which performs clustering on this data and gives us the minimum average and the maximum averages which are then used to plot the experimental graphs.
         POWER- We calculate and process our power in the same way as we calculate our load readings.
