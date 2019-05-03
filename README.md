@@ -36,7 +36,9 @@ The tests are then run in order to conduct the actual benchmarks to know the act
        
 
   DATA PROCESSING AFTER THE BENCHMARKS-
+    
     The Data processing architecture is divided into 3 categories-
+    
     1. CLIENT-
         RPS-
         Latency-
