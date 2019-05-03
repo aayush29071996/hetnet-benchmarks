@@ -40,21 +40,24 @@ The tests are then run in order to conduct the actual benchmarks to know the act
     The Data processing architecture is divided into 3 categories-
     
     1. CLIENT-
-        RPS-
-        Latency-
-        Maximum Latency-
+        RPS- A shell script is present which does "AWK" over to the stored data of the benchmark tests and gives output as the required RPS readings which are then used to make the graphs. 
+        Latency- Another shell script is written to get the reading of the Latency out given for a particular throughput value, we can extract the Latency reading and then this reading is further averaged with the use of a R script and then is used for plotting the graphs.
+        Maximum Latency- Maximum latency is then calculated with the help of another shell script and then the maximum of all the maximum reading for that particular test is taken and then a unified graph is plotted.
     
     
     
     2. SERVER-
-        LOAD-
-        POWER-
-        AVERAGING-
+        LOAD- The load of the cpu is processed with the help of a shell script named "filter_load.sh", this script filters the command line output and gives only the data which is appropriate for the experiments. The data thus obtained from this is then put into a R script which performs clustering on this data and gives us the minimum average and the maximum averages which are then used to plot the experimental graphs.
+        POWER- We calculate and process our power in the same way as we calculate our load readings.
+        AVERAGING- The process of averaging as discussed in the text above is done with the help of Clustering using R scripts. Thus, this process is used for making the final experimental graphs.
     
     
+    3. GRAPHING- For the process of graphing , we use GNUPLOT in order to construct the graphs of our experimental data.
+    You can find the GNUPLOT sample scripts already written in this section. Also you will find a script to convert "EPS" file format to "PDF" file formats.
     
-    
-    
-    3. GRAPHING-
+  
+  COMMANDS FOR RUNNING THE TESTS-
+  
+  
   
   
