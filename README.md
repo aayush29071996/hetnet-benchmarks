@@ -1,4 +1,4 @@
-# het-net benchmarks
+# hetnet benchmarks
 
 DATA- 
 The data folder represents the data from primary tests conducted between ARM and X86 while in the development process.
