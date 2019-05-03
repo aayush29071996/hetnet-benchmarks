@@ -25,6 +25,7 @@ The tests are then run in order to conduct the actual benchmarks to know the act
     1. When you enter the Client directory, you can see a memCacheClient.py file which you need to setup in your home directory of the client server machine.
     2. When you choose any one of the server from the 2 given servers, when you enter the particular server directory, there you can see a python script which you will be using in your router machine or your own laptop on which you need to execute this whole script which will automate all the tests on all given machines to get the benchmark results.
     3. Adjoining the python script you can enter the server configs file , in which you will find different files such as a serverConf.sh, changeThreadsMemcache.py and cpuLoadPower.py. All of these files makes the necessary changes on the server and sets up files to extract the cpuLoad and the Power data from the server, it is also used to configure the Memcached server threads and the cpu's or cores of the server machine.
+
 Please be careful of changing the scripts with the appropriate IP address required to run the tests and which is assigned to that particular ARM or X86 server.
        
     MULTIPLE CLIENT ARCHITECTURES-
@@ -55,6 +56,19 @@ Please be careful of changing the scripts with the appropriate IP address requir
     
   
   COMMANDS FOR RUNNING THE TESTS-
+    
+    PRECONFIGS-
+    1. Before we start the tests, first log on to the server which you are using for the tests and install "HTOP" package which is used to monitor the cpu Load and threads running.
+    2. You need to install python and also a python package known as "PEXPECT" in all the testing physical machines.
+    3. Place all the scripts at their appropriate locations.
+    4. Configure and install the MEMCACHED Server and client Benchmarks appropriately.
+    5. Start the MEMCACHED Server on a single thread by making the changes in it's config files.
+    
+    RUNNING THE BENCHMARKS-
+    1. The benchmarks are run by using the main testScript.py and setting it up on to a router which is connected to all the physical machines used in the tests through an Ethernet switch.
+    2. On the router do "sudo python testScript.py", you can change the name of the script as per the requirements.
+    3. The tests will be automatically completed after about 3-4 hours.
+    
   
   
   
